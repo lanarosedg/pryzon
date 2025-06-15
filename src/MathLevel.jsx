@@ -21,14 +21,19 @@ function MathLevel() {
                     >
                         1
                 </button>
-                
+
                 <button 
                     className="m2"
                     onClick={() => navigate('/MathLevels/M2')}
                     >
                         2
                     </button>
-                <p className="m3">3</p>
+                <button 
+                    className="m3"
+                    onClick={() => navigate('/MathLevels/M3')}
+                    >
+                        3
+                </button>
                 <p className="m4">4</p>
                 <p className="m5">5</p>
                 <p className="m6">6</p>
