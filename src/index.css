@@ -107,6 +107,7 @@
   border-style: solid;
   border-radius: 20px;
   border-width: 1px;
+  border-color: white;
   width: 80px;
   height: 80px;
   place-items: center;
@@ -281,4 +282,56 @@
 .l11:active, .m11:active, 
 .l12:active, .m12:active {
   border-color: #FF8225;
+}
+
+
+.M1Container {
+  display: grid;
+  grid-template-columns: 1fr 287px 1fr;
+  grid-template-rows: 200px 280px 250px;
+}
+
+.m1ProblemContainer {
+  display: grid;
+  grid-area: 2 / 2 / 3 / 3;
+  place-items: center;
+}
+
+.m1ProblemImg {
+  width: 287px;
+  height: 280px;
+}
+
+.answerInputContainer {
+  display: grid;
+  grid-area: 3 / 2 / 4 / 3;
+  place-items: center;
+  align-content: center;
+  gap: 10px;
+}
+
+.answerInput {
+  width: 200px;
+  border-style: none;
+  border-bottom-style: solid;
+}
+
+.answerInput:focus {
+  outline: none;
+  border-color: #F7374F;
+}
+
+.answerButton {
+  width: 120px;
+  height: 40px;
+  border-style: none;
+  border-radius: 20px;
+  background-color: white;
+  color:#F7374F;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.answerButton:active {
+  background-color: rgb(224, 224, 224);
 }

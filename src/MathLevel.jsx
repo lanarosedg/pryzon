@@ -1,6 +1,9 @@
+import { useNavigate } from 'react-router-dom';
+
 import logo from './assets/logo.png';
 
 function MathLevel() {
+    const navigate = useNavigate();
     return (
         <>
             <div className="LevelContainer">
@@ -12,7 +15,12 @@ function MathLevel() {
                     />
                 </div>
 
-                <p className="m1">1</p>
+                <button 
+                    className="m1"
+                    onClick={() => navigate('/MathLevels/M1')}
+                    >
+                        1
+                    </button>
                 <p className="m2">2</p>
                 <p className="m3">3</p>
                 <p className="m4">4</p>
