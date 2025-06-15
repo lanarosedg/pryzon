@@ -1,10 +1,10 @@
 import logo from '../assets/logo.png';
 
 
-function M6() {
+function M7() {
     return (
         <>
-        <div className="M6Container">
+        <div className="M7Container">
             <div className="logoContainer">
                 <img 
                     src={logo} 
@@ -12,11 +12,9 @@ function M6() {
                     className="logo" 
                 />
             </div>
-            <div className="m6ProblemContainer">
-                <p className="m6ProblemStatement">
-                    CA + E = CF
-                    <br />
-                    BF / B = ?  
+            <div className="m7ProblemContainer">
+                <p className="m7ProblemStatement">
+                    4, 16, 64, ?
                 </p>
             </div>
             <div className="answerInputContainer">
@@ -33,4 +31,4 @@ function M6() {
     )
 }
 
-export default M6;
+export default M7;

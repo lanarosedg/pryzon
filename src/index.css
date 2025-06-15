@@ -197,6 +197,7 @@
   border-style: solid;
   border-radius: 20px;
   border-width: 1px;
+  border-color: white;
   width: 80px;
   height: 80px;
   place-items: center;
@@ -441,6 +442,28 @@
 }
 
 .m6ProblemStatement {
+  display: grid;
+  place-items: center;
+  width: 287px;
+  height: 280px;
+  font-size: 32px;
+}
+
+/* Math level 6 */
+
+
+.M7Container {
+  display: grid;
+  grid-template-columns: 1fr 287px 1fr;
+  grid-template-rows: 200px 280px 250px;
+}
+
+.m7ProblemContainer {
+  display: grid;
+  grid-area: 2 / 2 / 3 / 3;
+}
+
+.m7ProblemStatement {
   display: grid;
   place-items: center;
   width: 287px;
