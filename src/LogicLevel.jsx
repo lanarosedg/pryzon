@@ -1,7 +1,9 @@
+import { useNavigate } from 'react-router-dom';
+
 import logo from './assets/logo.png';
 
-
 function LogicLevel () {
+    const navigate = useNavigate();
     return (
         <>
         <div className="LevelContainer">
@@ -13,7 +15,13 @@ function LogicLevel () {
                             />
                         </div>
         
-                        <p className="l1">1</p>
+                        <button 
+                            className="l1"
+                            onClick={() => navigate('/LogicLevels/L1')}
+                            >
+                                1
+                        </button>
+
                         <p className="l2">2</p>
                         <p className="l3">3</p>
                         <p className="l4">4</p>

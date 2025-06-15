@@ -20,7 +20,8 @@ function MathLevel() {
                     onClick={() => navigate('/MathLevels/M1')}
                     >
                         1
-                    </button>
+                </button>
+                
                 <button 
                     className="m2"
                     onClick={() => navigate('/MathLevels/M2')}

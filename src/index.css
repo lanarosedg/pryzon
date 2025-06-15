@@ -359,3 +359,50 @@
   width: 287px;
   height: 280px;
 }
+
+/* Logic level 1 */
+
+
+.L1Container {
+  display: grid;
+  grid-template-columns: 1fr 102px 102px 102px 1fr;
+  grid-template-rows: 200px 280px 250px;
+}
+
+.l1ProblemContainer {
+  display: grid;
+  grid-area: 2 / 2 / 3 / 5;
+  place-items: center;
+}
+
+.l1ProblemImg {
+  width: 306px;
+  height: 187px;
+}
+
+.l1a {
+  width: 93px;
+  height: 98.07px;
+  display: grid;
+  grid-area: 3 / 2 / 4 / 3;
+  align-self: center;
+  justify-self: center;
+}
+
+.l1b {
+  width: 93px;
+  height: 98.07px;
+  display: grid;
+  grid-area: 3 / 3 / 4 / 4;
+  align-self: center;
+  justify-self: center;
+}
+
+.l1c {
+  width: 93px;
+  height: 98.07px;
+  display: grid;
+  grid-area: 3 / 4 / 4 / 5;
+  align-self: center;
+  justify-self: center;
+}

@@ -7,6 +7,8 @@ import MathLevel from './MathLevel';
 import M1 from './MathLevels/M1';
 import M2 from './MathLevels/M2';
 
+import L1 from './LogicLevels/L1';
+
 function App() {
 
   return (
@@ -18,6 +20,7 @@ function App() {
           <Route path="/MathLevel" element={<MathLevel />} />
           <Route path="/MathLevels/M1" element={<M1 />} />
           <Route path="/MathLevels/M2" element={<M2 />} />
+          <Route path="/LogicLevels/L1" element={<L1 />} />
         </Routes>
       </BrowserRouter>
     </>
