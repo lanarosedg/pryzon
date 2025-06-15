@@ -3,7 +3,7 @@ import logo from './assets/logo.png';
 function MathLevel() {
     return (
         <>
-            <div className="MathLevelContainer">
+            <div className="LevelContainer">
                 <div className="logoContainer">
                     <img 
                         src={logo} 
