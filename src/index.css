@@ -167,6 +167,7 @@
   border-style: solid;
   border-radius: 20px;
   border-width: 1px;
+  border-color: white;
   width: 80px;
   height: 80px;
   place-items: center;
@@ -362,7 +363,7 @@
   height: 280px;
 }
 
-/* Math level 4 */
+/* Math level 3 */
 
 
 .M3Container {
@@ -403,6 +404,27 @@
   width: 238px;
   height: 192px;
 }
+
+/* Math level 5 */
+
+
+.M5Container {
+  display: grid;
+  grid-template-columns: 1fr 287px 1fr;
+  grid-template-rows: 200px 280px 250px;
+}
+
+.m5ProblemContainer {
+  display: grid;
+  grid-area: 2 / 2 / 3 / 3;
+  place-items: center;
+}
+
+.m5ProblemImg {
+  width: 287px;
+  height: 280px;
+}
+
 
 
 /* Logic level 1 */
