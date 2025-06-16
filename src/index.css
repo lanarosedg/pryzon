@@ -590,7 +590,7 @@
 .L1Container {
   display: grid;
   grid-template-columns: 1fr 102px 102px 102px 1fr;
-  grid-template-rows: 200px 280px 250px;
+  grid-template-rows: 200px 250px 250px;
 }
 
 .l1ProblemContainer {
@@ -600,13 +600,13 @@
 }
 
 .l1ProblemImg {
-  width: 306px;
-  height: 187px;
+  width: 279px;
+  height: 154px;
 }
 
 .l1a {
-  width: 93px;
-  height: 98.07px;
+  width: 90px;
+  height: 121px;
   display: grid;
   grid-area: 3 / 2 / 4 / 3;
   align-self: center;
@@ -614,8 +614,8 @@
 }
 
 .l1b {
-  width: 93px;
-  height: 98.07px;
+  width: 90px;
+  height: 121px;
   display: grid;
   grid-area: 3 / 3 / 4 / 4;
   align-self: center;
@@ -623,8 +623,55 @@
 }
 
 .l1c {
-  width: 93px;
-  height: 98.07px;
+  width: 90px;
+  height: 121px;
+  display: grid;
+  grid-area: 3 / 4 / 4 / 5;
+  align-self: center;
+  justify-self: center;
+}
+
+/* Logic level 2 */
+
+
+.L2Container {
+  display: grid;
+  grid-template-columns: 1fr 102px 102px 102px 1fr;
+  grid-template-rows: 200px 250px 250px;
+}
+
+.l2ProblemContainer {
+  display: grid;
+  grid-area: 2 / 2 / 3 / 5;
+  place-items: center;
+}
+
+.l2ProblemImg {
+  width: 172px;
+  height: 174px;
+}
+
+.l2a {
+  width: 77px;
+  height: 109px;
+  display: grid;
+  grid-area: 3 / 2 / 4 / 3;
+  align-self: center;
+  justify-self: center;
+}
+
+.l2b {
+  width: 77px;
+  height: 109px;
+  display: grid;
+  grid-area: 3 / 3 / 4 / 4;
+  align-self: center;
+  justify-self: center;
+}
+
+.l2c {
+  width: 77px;
+  height: 109px;
   display: grid;
   grid-area: 3 / 4 / 4 / 5;
   align-self: center;
