@@ -866,3 +866,50 @@
   align-self: center;
   justify-self: center;
 }
+
+/* Logic level 7 */
+
+
+.L7Container {
+  display: grid;
+  grid-template-columns: 1fr 102px 102px 102px 1fr;
+  grid-template-rows: 200px 250px 250px;
+}
+
+.l7ProblemContainer {
+  display: grid;
+  grid-area: 2 / 2 / 3 / 5;
+  place-items: center;
+}
+
+.l7ProblemImg {
+  width: 242px;
+  height: 144px;
+}
+
+.l7a {
+  width: 91px;
+  height: 127px;
+  display: grid;
+  grid-area: 3 / 2 / 4 / 3;
+  align-self: center;
+  justify-self: center;
+}
+
+.l7b {
+  width: 91px;
+  height: 127px;
+  display: grid;
+  grid-area: 3 / 3 / 4 / 4;
+  align-self: center;
+  justify-self: center;
+}
+
+.l7c {
+  width: 91px;
+  height: 127px;
+  display: grid;
+  grid-area: 3 / 4 / 4 / 5;
+  align-self: center;
+  justify-self: center;
+}
