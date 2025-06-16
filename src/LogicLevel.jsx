@@ -28,7 +28,12 @@ function LogicLevel () {
                             >
                                 2
                         </button>
-                        <p className="l3">3</p>
+                        <button 
+                            className="l3"
+                            onClick={() => navigate('/LogicLevels/L3')}
+                            >
+                                3
+                        </button>
                         <p className="l4">4</p>
                         <p className="l5">5</p>
                         <p className="l6">6</p>
