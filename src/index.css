@@ -771,3 +771,51 @@
   align-self: center;
   justify-self: center;
 }
+
+
+/* Logic level 5 */
+
+
+.L5Container {
+  display: grid;
+  grid-template-columns: 1fr 102px 102px 102px 1fr;
+  grid-template-rows: 200px 250px 250px;
+}
+
+.l5ProblemContainer {
+  display: grid;
+  grid-area: 2 / 2 / 3 / 5;
+  place-items: center;
+}
+
+.l5ProblemImg {
+  width: 275.8px;
+  height: 189px;
+}
+
+.l5a {
+  width: 89.8px;
+  height: 117px;
+  display: grid;
+  grid-area: 3 / 2 / 4 / 3;
+  align-self: center;
+  justify-self: center;
+}
+
+.l5b {
+  width: 89.8px;
+  height: 117px;
+  display: grid;
+  grid-area: 3 / 3 / 4 / 4;
+  align-self: center;
+  justify-self: center;
+}
+
+.l5c {
+  width: 89.8px;
+  height: 117px;
+  display: grid;
+  grid-area: 3 / 4 / 4 / 5;
+  align-self: center;
+  justify-self: center;
+}
