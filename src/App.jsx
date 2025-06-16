@@ -14,6 +14,8 @@ import M7 from './MathLevels/M7';
 import M8 from './MathLevels/M8';
 import M9 from './MathLevels/M9';
 import M10 from './MathLevels/M10';
+import M11 from './MathLevels/M11';
+import M12 from './MathLevels/M12';
 
 import L1 from './LogicLevels/L1';
 
@@ -38,6 +40,8 @@ function App() {
           <Route path="/MathLevels/M8" element={<M8 />} />
           <Route path="/MathLevels/M9" element={<M9 />} />
           <Route path="/MathLevels/M10" element={<M10 />} />
+          <Route path="/MathLevels/M11" element={<M11 />} />
+          <Route path="/MathLevels/M12" element={<M12 />} />
           
           {/* Logic Levels */}
 

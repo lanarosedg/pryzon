@@ -540,6 +540,49 @@
 }
 
 
+/* Math level 11 */
+
+
+.M11Container {
+  display: grid;
+  grid-template-columns: 1fr 287px 1fr;
+  grid-template-rows: 200px 280px 250px;
+}
+
+.m11ProblemContainer {
+  display: grid;
+  grid-area: 2 / 2 / 3 / 3;
+  place-items: center;
+}
+
+.m11ProblemImg {
+  width: 247px;
+  height: 243px;
+  place-items: center;
+}
+
+
+/* Math level 12 */
+
+
+.M12Container {
+  display: grid;
+  grid-template-columns: 1fr 287px 1fr;
+  grid-template-rows: 200px 280px 250px;
+}
+
+.m12ProblemContainer {
+  display: grid;
+  grid-area: 2 / 2 / 3 / 3;
+}
+
+.m12ProblemStatement {
+  display: grid;
+  place-items: center;
+  width: 287px;
+  height: 280px;
+  font-size: 32px;
+}
 
 /* Logic level 1 */
 
