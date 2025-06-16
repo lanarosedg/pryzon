@@ -242,6 +242,7 @@
   border-style: solid;
   border-radius: 20px;
   border-width: 1px;
+  border-color: white;
   width: 80px;
   height: 80px;
   place-items: center;
@@ -256,6 +257,7 @@
   border-style: solid;
   border-radius: 20px;
   border-width: 1px;
+  border-color: white;
   width: 80px;
   height: 80px;
   place-items: center;
@@ -270,6 +272,7 @@
   border-style: solid;
   border-radius: 20px;
   border-width: 1px;
+  border-color: white;
   width: 80px;
   height: 80px;
   place-items: center;
@@ -512,6 +515,27 @@
 .m9ProblemImg {
   width: 246px;
   height: 186px;
+  place-items: center;
+}
+
+/* Math level 10 */
+
+
+.M10Container {
+  display: grid;
+  grid-template-columns: 1fr 287px 1fr;
+  grid-template-rows: 200px 296px 234px;
+}
+
+.m10ProblemContainer {
+  display: grid;
+  grid-area: 2 / 2 / 3 / 3;
+  place-items: center;
+}
+
+.m10ProblemImg {
+  width: 308px;
+  height: 296px;
   place-items: center;
 }
 
