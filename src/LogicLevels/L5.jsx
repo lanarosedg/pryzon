@@ -6,7 +6,7 @@ import l5b from '../assets/LogicLevels/l5b.png';
 import l5c from '../assets/LogicLevels/l5c.png';
 
 
-function L4() {
+function L5() {
     return (
         <>
         <div className="L5Container">
@@ -44,4 +44,4 @@ function L4() {
     )
 }
 
-export default L4;
+export default L5;
