@@ -27,6 +27,8 @@ import L7 from './LogicLevels/L7';
 import L8 from './LogicLevels/L8';
 import L9 from './LogicLevels/L9';
 import L10 from './LogicLevels/L10';
+import L11 from './LogicLevels/L11';
+import L12 from './LogicLevels/L12';
 
 function App() {
 
@@ -66,6 +68,8 @@ function App() {
           <Route path="/LogicLevels/L8" element={<L8 />} />
           <Route path="/LogicLevels/L9" element={<L9 />} />
           <Route path="/LogicLevels/L10" element={<L10 />} />
+          <Route path="/LogicLevels/L11" element={<L11 />} />
+          <Route path="/LogicLevels/L12" element={<L12 />} />
 
         </Routes>
       </BrowserRouter>
