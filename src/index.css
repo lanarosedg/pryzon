@@ -961,7 +961,7 @@
   justify-self: center;
 }
 
-/* Logic level 0 */
+/* Logic level 9 */
 
 
 .L9Container {
@@ -1002,6 +1002,53 @@
 .l9c {
   width: 91px;
   height: 127px;
+  display: grid;
+  grid-area: 3 / 4 / 4 / 5;
+  align-self: center;
+  justify-self: center;
+}
+
+/* Logic level 10 */
+
+
+.L10Container {
+  display: grid;
+  grid-template-columns: 1fr 102px 102px 102px 1fr;
+  grid-template-rows: 200px 280px 210px;
+}
+
+.l10ProblemContainer {
+  display: grid;
+  grid-area: 2 / 2 / 3 / 5;
+  place-items: center;
+}
+
+.l10ProblemImg {
+  width: 200px;
+  height: 200px;
+}
+
+.l10a {
+  width: 70.07px;
+  height: 108px;
+  display: grid;
+  grid-area: 3 / 2 / 4 / 3;
+  align-self: center;
+  justify-self: center;
+}
+
+.l10b {
+  width: 70.07px;
+  height: 108px;
+  display: grid;
+  grid-area: 3 / 3 / 4 / 4;
+  align-self: center;
+  justify-self: center;
+}
+
+.l10c {
+  width: 70.07px;
+  height: 108px;
   display: grid;
   grid-area: 3 / 4 / 4 / 5;
   align-self: center;
