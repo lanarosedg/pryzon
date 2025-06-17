@@ -1109,7 +1109,7 @@
 .L12Container {
   display: grid;
   grid-template-columns: 1fr 102px 102px 102px 1fr;
-  grid-template-rows: 200px 280px 210px;
+  grid-template-rows: 200px 200px 210px;
 }
 
 .l12ProblemContainer {
